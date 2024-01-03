@@ -1,0 +1,55 @@
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <script src="rewiw.js"></script>
+        <link rel="stylesheet" href="rewiw.css">
+    <meta name="viewport" content="Qiz for Assismant">
+    <title>Review of clint</title>
+    
+</head>
+<body>
+    <fieldset>
+        <legend>Review</legend>
+    <h2>Review Form</h2>
+    <form  method="post" class="quizForm">
+        <table>
+            <thead>
+                <tr>
+                    <th>Question</th>
+                    <th>Options</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+
+                    <td>Are you satisfied with our service?</td>
+                    <td>
+                        <label><input type="radio" name="q1" value="a"> true</label>
+                        <label><input type="radio" name="q1" value="b"> false</label>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>Do you find our website user-friendly?</td>
+                    <td>
+                        <label><input type="radio" name="q2" value="a"> true</label>
+                        <label><input type="radio" name="q2" value="b"> false</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Would you recommend us to others?</td>
+                    <td>
+                        <label><input type="radio" name="q3" value="a">true</label>
+                        <label><input type="radio" name="q3" value="b">false</label>
+                    </td>
+                </tr>
+                
+            </tbody>
+        </table>
+        <input type="button" onclick="calculateScore()" value="Submit" id="submit">
+        <p id="result"></p>
+    </form>
+   </fieldset>
+</body>
+</html>

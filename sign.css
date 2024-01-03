@@ -1,0 +1,57 @@
+
+#legend{
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-size: 22px;
+}
+#logo{
+    font-size: 20px;
+    margin: auto;
+    margin-left:150px;
+}
+
+.contenar_login{
+    width:450px;
+    height: 300px;
+}
+
+#sign_up_butt{
+    display: inline;
+    margin-left:400px;
+}
+#forg_pass_link{
+    padding-left: 270px;
+    text-decoration: none;
+}
+#log_butt{
+    margin-left: 100px;
+}
+#forg_pass_butt{
+    margin-left:97px;
+}
+.contenar_forgetpassword{
+    width:450px;
+    height: 250px;
+}
+#Update{
+    margin-left: 100px;
+}
+
+.contenar_Signup{
+    width:450px;
+    height: 250px;
+}
+#sign_up_butt{
+    margin-left: 100px;
+}
+.contenar_Signup{
+    width: 450px;
+    height: 350px;
+
+}
+#Forget_pass_butt{
+    margin-left:100px ;
+}
+
+.contenar_Signup,.contenar_forgetpassword,.contenar_login{
+    margin-left: 20px;
+}

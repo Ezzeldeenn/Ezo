@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="sign_for Assismant" content="sign_for:sign_up,log_in,forget_password">
+<link rel="stylesheet" href="sign.css">
+<script src="sign.js"></script>
+</head>
+<body>
+<fieldset class="contenar_login" id="log_pag">
+<legend id="legend">log_in</legend>
+<hr>
+<div class="log_in_page" id="LoginForm">
+    <p id="logo">log_in_Form</p><br><br>
+    <label for="Login-txtUserName">User Name</label>
+    <input type="text" name="Login-userName" id="Login-txtUserName" placeholder="user name"><br> <br>
+    <label for="Login-txtPass">Password</label>
+    <input type="text" name="Login-pass" id="Login-txtPass" placeholder="Password"> <br><br>
+   <button onclick="funcLogin()" id="btnLogin">Login</button><br> <br>
+    <a href="#ForgetPassForm"><button>Forget Password</button></a> <br><br>  
+    <a href="#SignUpForm" id="forg_pass_link">Don`t have acount</a>
+    <a href="#SignUpForm"><button type="submit" value="Sign_up" id="Sign_up_page">Sign_up</button></a>
+    <br>
+</div>
+<hr><br>
+</section>
+<hr>
+<section>
+<fieldset class="contenar_forgetpassword" id="forg_pas">
+    <legend id="legend">forget_password</legend>
+    <hr>
+    <div class="forg_pass_page" id="ForgetPassForm">
+        <p id="logo">Forget_pass_Form</p><br><br>
+         <label for="fp-userName">User Name</label>
+         <input type="text" name="userName" id="fp-userName" placeholder="user name"><br> <br>
+        <label for="fp-txtPass">New_Password</label>
+        <input type="text" name="pass" id="fp-txtPass" placeholder="Password"><br><br><br>
+       <button onclick="funcForgetPass()" id="btnUpdate">Update</button>
+    </div>
+    <br>
+    <hr>
+</section>
+
+<hr>
+
+<fieldset class="contenar_Signup" id="SignUpForm">
+<legend id="legend">Sign_up</legend>
+<hr>
+<div class="Sign_up_page" id="SignUpForm">
+    <p id="logo">Sign_up_Form</p><br><br>
+
+    <label for="SingUp-txtUserName">User Name</label>
+    <input type="text" name="singup-userName" id="SingUp-txtUserName" placeholder="userName"><br><br>
+
+    <label for="SingUp-txtPass">Password </label>
+    <input type="password" name="singup-password" id="SingUp-txtPass" placeholder="Password" minlength="0" maxlength="8"><br><br>
+    
+    <label for="SingUp-age">Age</label>
+    <input type="text" name="singup-age" id="SingUp-age" placeholder="Age.." minlength="18" maxlength="60"><br><br>
+
+   <label for="SingUp-gender">Gender:</label>
+   <input type="radio" name="singup-gender" id="m" value="Male"><label for="m">Male</label>
+   <input type="radio" name="singup-gender" id="f" value="Female"><label for="f">Female</label><br<br>
+        
+   <br><br><label for="SingUp-phoneNumber">Phone Number</label>
+   <input type="text" name="singup-gender" id="SingUp-phoneNumber" placeholder="phone number.." minlength="11" maxlength="11"> 
+    <br>
+    <br><br>
+   <button id="btnSubmit" onclick="funcSignUp()">Submit</button>
+</div>
+<hr>
+</fieldset>
+
+
+</body>
+</html>
+
+
+ 
